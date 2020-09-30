@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Notatnik.NotepadsListPage" Title="Notatniki" BackgroundColor="#FFF1C9">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="DeleteNotebookButton"
+                     Clicked="OnNotebookDeletedClicked" IconImageSource="trashcan.png"/>
+
+    </ContentPage.ToolbarItems>
+    <StackLayout x:Name="containerStackLayout">
+        <ListView x:Name="notepadsListView" Margin="20" ItemSelected="OnListViewItemSelected" BackgroundColor="#FFF1C9">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" TextColor="#0C005C" DetailColor="#0C005C"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Notatnik.CreateNotebookPage" BackgroundColor="#FFF1C9">
+    <ScrollView>
+        <StackLayout x:Name="containerStackView" Orientation="Vertical" Margin="40" Padding="10" Spacing="20">
+            <Label Text="Notatnik" HorizontalOptions="Center" TextColor="#7A2500"/>
+            <StackLayout Orientation="Vertical" Spacing="1">
+                <Entry  x:Name="nameEntry" Placeholder="Nazwa" IsSpellCheckEnabled="false" IsTextPredictionEnabled="false" BackgroundColor="#FFF1C9"/>
+                <Label x:Name="nameRequiredLabel" Text="nazwa użytkownika jest wymagana" FontSize="10" TextColor="Red" IsVisible="false"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Spacing="1">
+                <Entry x:Name="passwordEntry" Placeholder="Hasło" IsSpellCheckEnabled="false" IsTextPredictionEnabled="false" IsPassword="True" BackgroundColor="#FFF1C9"/>
+                <Label x:Name="passwordRequiredLabel" Text="hasło jest wymagane" FontSize="10" TextColor="Red" IsVisible="false"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Spacing="1">
+                <Entry x:Name="repeatPasswordEntry" Placeholder="Powtórz hasło" IsSpellCheckEnabled="false" IsTextPredictionEnabled="false" IsPassword="True" BackgroundColor="#FFF1C9"/>
+                <Label x:Name="passwordsNotSameLabel" Text="złe" FontSize="10" TextColor="Red" IsVisible="false"/>
+            </StackLayout>
+            
+            <Button Text="Stworzyć" Clicked="OnCreateClicked" TextColor="White" BackgroundColor="#7A2500"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,87 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/anatoliitomazov/NexioManagementCorrect/Notatnik/Notatnik.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/1-Link/System.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

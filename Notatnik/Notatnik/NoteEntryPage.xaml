@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#FFF1C9"
+             x:Class="Notatnik.NoteEntryPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="DeleteToolBarItem" Clicked="OnDeleteClicked"/>
+        <ToolbarItem x:Name="DoneToolBarItem" IconImageSource="checkmark.png"
+                     Clicked="OnDoneClicked"/>
+        
+        
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="20" Spacing=" 20" x:Name="containerStackLayout">
+        <Label  x:Name="dateLabel" Text="{Binding Date}" TextColor="#0C005C"
+                HorizontalOptions="Center" IsVisible="False"/>
+        <ScrollView x:Name="scrollView" HorizontalOptions="Fill" >
+            <Editor x:Name="noteDescriptionEntry" Text="{Binding Description}" HeightRequest="5000"
+                    Placeholder="Wpisz tekst tutaj" AutoSize="TextChanges" IsVisible="False"
+                    TextColor="#0C005C" BackgroundColor="#FFF1C9"/>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Kursy.CourseDescriptionPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="enrollBarButton"
+                     Clicked="OnEnrollClicked" />
+
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="20" Spacing="20">
+        <Label Text="{Binding CourseName}" TextColor="Black" FontSize="30"
+               HorizontalOptions="StartAndExpand" FontAttributes="Bold, Italic"/>
+
+        <StackLayout Orientation="Vertical" Spacing="10">
+            <Label Text="Organizator:"/>
+
+            <StackLayout  Orientation="Horizontal">
+                <Frame CornerRadius="30" 
+           HeightRequest="50"
+           WidthRequest="50" VerticalOptions="Center"
+           Padding="0"
+           IsClippedToBounds="True">
+                    <Image Source="{Binding OrganizerImage}" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+                </Frame>
+                <StackLayout x:Name="contactLayout" Orientation="Vertical" >
+                    <Label Text="{Binding OrganizerName}" FontSize="20" TextColor="Black"/>
+
+                    <Label x:Name="organizerEmailLabel" Text="{Binding OrganizerEmail}" TextColor="Black"/>
+                </StackLayout>
+                <ImageButton Source="email.png" Clicked="OnSendEmailClick" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical" Spacing="0">
+
+            <Label Text="Lokalizacja:"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding LocationName}" TextColor="Black"/>
+                <ImageButton Source="route.png" Clicked="OnShowDirectionClicked" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1" Spacing="3">
+            <Label Text="Liczba uczestników:"/>
+            <Label Text="{Binding AttendeeNumber}"  VerticalOptions="Center" TextColor="Black"/>
+            
+        </StackLayout>
+
+
+        <StackLayout Spacing="0" x:Name="containerStackLayout" Orientation="Vertical">
+            <Label Text="Opisanie:"/>
+            <ScrollView x:Name="scrollView" HorizontalOptions="Fill" >
+                <Editor x:Name="noteDescriptionEntry" Text="{Binding CourseDescription}" HeightRequest="500" AutoSize="Disabled" IsReadOnly="True"/>
+            </ScrollView>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

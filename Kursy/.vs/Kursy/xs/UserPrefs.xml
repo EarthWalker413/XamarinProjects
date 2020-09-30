@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{2CC138AB-37E4-428B-9C67-06C2C44462EF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Kursy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FD359F9F-7501-44A1-B567-630825ACF44A" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kursy/DatabaseServise/Database.cs">
+    <Files>
+      <File FileName="Kursy/CourseDescriptionPage.xaml.cs" Line="63" Column="10" />
+      <File FileName="Kursy/DatabaseServise/Database.cs" Line="68" Column="25" />
+      <File FileName="Kursy/MainPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Kursy" expanded="True">
+            <Node name="Kursy" expanded="True">
+              <Node name="DatabaseServise" expanded="True">
+                <Node name="Database.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Requests" expanded="True" />
+              <Node name="CourseDescriptionPage.xaml" expanded="True" />
+              <Node name="CoursesTabbedPage.xaml" expanded="True" />
+              <Node name="EnrolledCourseDescriptionPage.xaml" expanded="True" />
+              <Node name="EnrolledCourses.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Kursy.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Pixel_2_API_29" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

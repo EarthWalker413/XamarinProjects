@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Notatnik.MainPage" BackgroundColor="#FFF1C9">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="ListNotepads"
+                     Clicked="OnListNotepadsClicked" IconImageSource="list.png"/>
+
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Margin="40" Padding="10" Spacing="20" x:Name="containerStackView">
+            <Label x:Name="secNoteLabel" Text="Notatnik" HorizontalOptions="Center" FontSize="25" Padding="20" TextColor="#7A2500"/>
+            <StackLayout x:Name="nameStackView">
+                <Entry x:Name="nameEntry" Placeholder="Nazwa" IsSpellCheckEnabled="false" IsTextPredictionEnabled="false"
+                       BackgroundColor="#FFF1C9"/>
+                <Label x:Name="nameRequiredLabel" Text="nazwa użytkownika jest wymagana" FontSize="10" TextColor="Red" IsVisible="false"/>
+            </StackLayout>
+            <StackLayout>
+                <Entry x:Name="passwordEntry" Placeholder="Hasło" IsSpellCheckEnabled="false" IsTextPredictionEnabled="false" BackgroundColor="#FFF1C9" IsPassword="True"/>
+                <Label x:Name="passwordRequiredLabel" Text="hasło jest wymagane" FontSize="10" TextColor="Red" IsVisible="false"/>
+            </StackLayout>
+
+            <Button x:Name="openButton" Text="Otwórz" Clicked="OnOpenButtonClicked" TextColor="White" BackgroundColor="#7A2500"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Nie masz jeszcze notatnika?" TextColor="#7A2500" FontSize="12" />
+                <Label Text="Stworzyć jeden" TextColor="#7A2500" FontSize="12">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnCreateLabelTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

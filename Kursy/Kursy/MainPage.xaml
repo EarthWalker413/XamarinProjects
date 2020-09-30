@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Kursy.MainPage" Title="Wszystkie">
+    <StackLayout Margin="10">
+        <ListView x:Name="coursesList" ItemSelected="OnListViewItemSelected" HasUnevenRows="True" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell x:Name="listViewcell">
+                        <StackLayout Padding="3" x:Name="cellLayout">
+                            <Frame BackgroundColor="Transparent" BorderColor="#0E266B" Margin="2"
+                                   Padding="2" VerticalOptions="FillAndExpand"
+                                   HorizontalOptions="FillAndExpand"
+                                   CornerRadius="5"
+                                   IsClippedToBounds="True"
+                                   HasShadow="True"
+                                x:Name="frame"
+
+                               >
+                                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" IsClippedToBounds="True" >
+                                    <StackLayout Orientation="Vertical" Spacing="0">
+                                        <Label Text="{Binding OrganizerName}" FontSize="Small" TextColor="#0E266B"/>
+                                        <Label BackgroundColor="#0E266B" HeightRequest="2" HorizontalOptions="Fill"/>
+                                    </StackLayout>
+                                    <Grid Margin="5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.2*" />
+                                            <ColumnDefinition Width="0.5*" />
+                                            <ColumnDefinition Width="0.3*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="auto" />
+                                        </Grid.RowDefinitions>
+                                        <StackLayout Grid.Column="0" Grid.RowSpan="2">
+                                            <Image Source="{Binding CourseImage}"  Aspect="AspectFit"/>
+                                        </StackLayout>
+
+                                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding CourseName}"
+                                               Grid.ColumnSpan="2" FontSize="20" TextColor="#0E266B"
+                                               FontAttributes="Italic,Bold"/>
+                                     
+                                        <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+                                            <Image Source="group.png" Aspect="AspectFit" VerticalOptions="Center"/>
+                                            <Label Text="{Binding AttendeeNumber}"  VerticalOptions="Center" TextColor="#0E266B"/>
+                                        </StackLayout>
+                                        
+                                        <StackLayout Grid.Column="2" Grid.Row="1" Orientation="Horizontal">
+                                            <Image Source="dollar.png" Aspect="AspectFit" VerticalOptions="Center"/>
+                                            <Label  Text="{Binding CoursePrice}" VerticalOptions="Center" TextColor="#0E266B"/>
+                                        </StackLayout>
+                                    </Grid>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout >
+                    </ViewCell>
+
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
